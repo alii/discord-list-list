@@ -15,7 +15,7 @@ export default function Home() {
 			<div className="shadow-md bg-gray-100 dark:bg-gray-800">
 				<div className="max-w-4xl mx-auto pt-5">
 					<img
-						src="https://i.imgur.com/ZOKp8LH.jpg"
+						src="https://static.vecteezy.com/system/resources/previews/001/191/986/non_2x/circle-logo-png.png"
 						className="monotonize-image"
 						alt="Discord"
 						height={64}
