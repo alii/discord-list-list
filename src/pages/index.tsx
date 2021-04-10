@@ -1,3 +1,4 @@
+import {Card} from "../components/card";
 import data from "../data.json";
 
 const categories = Object.entries(data.categories);
@@ -29,7 +30,23 @@ export default function Home() {
 			<div className="max-w-4xl mx-auto mt-8">
 				{categories.map((entry) => {
 					const [category, items] = entry;
-					return <div key={category}>{JSON.stringify(items)}</div>;
+					return (
+						<div key={category}>
+							<h2 className="text-4xl font-bold mb-4 mt-10">{category}</h2>
+							<div className="grid grid-cols-3 gap-4">
+								{items.map((item) => {
+									return (
+										<Card
+											key={item}
+											name={item.name}
+											link={item.link}
+											description={item.description}
+										/>
+									);
+								})}
+							</div>
+						</div>
+					);
 				})}
 			</div>
 		</>
