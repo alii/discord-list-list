@@ -24,15 +24,15 @@ export default function Home() {
 				</div>
 
 				<div className="py-24 max-w-4xl mx-auto space-y-4">
-					<h1 className="font-bold text-4xl">Discord List List</h1>
+					<h1 className="font-bold text-4xl dark:opacity-75 dark:text-white">Discord List List</h1>
 					<input
 						type="text"
 						placeholder="Search"
-						className="bg-gray-900 placeholder-gray-200 dark:placeholder-gray-600 bg-opacity-30 px-4 py-2 rounded-md w-full md:w-1/2 outline-none focus:outline-none focus:ring ring-gray-300"
+						className="bg-gray-900 placeholder-gray-200 dark:placeholder-gray-400 bg-opacity-30 px-4 py-2 rounded-md w-full md:w-1/2 outline-none focus:outline-none focus:ring ring-gray-300"
 						onChange={(e) => setState(e.target.value)}
 						value={state}
 					/>
-					<p className="opacity-50 w-2/3">
+					<p className="opacity-50 dark:opacity-75 dark:text-white w-2/3">
 						If you dont use Discordlistlist to find the best Discord list, then how do you know that you
 						have the best discord list from the potential Discord lists to find the best Discord? Look no
 						more, for here is Discordlistlist
@@ -47,7 +47,7 @@ export default function Home() {
 							const [category, items] = entry;
 							return (
 								<div key={category}>
-									<h2 className="text-4xl font-bold mb-4 mt-10">{category}</h2>
+									<h2 className="text-4xl font-bold mb-4 mt-10 dark:opacity-75 dark:text-white">{category}</h2>
 									<div className="grid grid-cols-1 md:grid-cols-3 gap-4">
 										{items.map((item) => {
 											return (
