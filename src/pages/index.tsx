@@ -9,7 +9,7 @@ export default function Home() {
 				<div className="max-w-4xl mx-auto pt-5">
 					<img
 						src="https://i.imgur.com/ZOKp8LH.jpg"
-						className="whiten-image"
+						className="monotonize-image"
 						alt="Discord"
 						height={64}
 						width={64}
@@ -21,7 +21,7 @@ export default function Home() {
 					<input
 						type="text"
 						placeholder="Search"
-						className="bg-gray-900 bg-opacity-30 px-4 py-2 rounded-md w-full md:w-1/2 outline-none focus:outline-none focus:ring ring-gray-300"
+						className="bg-gray-900 placeholder-gray-200 dark:placeholder-gray-600 bg-opacity-30 px-4 py-2 rounded-md w-full md:w-1/2 outline-none focus:outline-none focus:ring ring-gray-300"
 					/>
 				</div>
 			</div>
