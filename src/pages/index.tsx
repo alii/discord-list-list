@@ -23,7 +23,7 @@ export default function Home() {
 					/>
 				</div>
 
-				<div className="py-36 max-w-4xl mx-auto space-y-2 px-4">
+				<div className="py-36 max-w-4xl mx-auto space-y-4 px-4">
 					<h1 className="font-bold text-4xl">Discord List List</h1>
 					<input
 						type="text"
@@ -32,6 +32,11 @@ export default function Home() {
 						onChange={(e) => setState(e.target.value)}
 						value={state}
 					/>
+					<p className="opacity-50 w-2/3">
+						If you dont use Discordlistlist to find the best Discord list, then how do you know that you
+						have the best discord list from the potential discord lists to find the best discord? Look no
+						more, for here is Discordlistlist
+					</p>
 				</div>
 			</div>
 
