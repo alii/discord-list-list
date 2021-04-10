@@ -52,7 +52,7 @@ export default function Home() {
 										{items.map((item) => {
 											return (
 												<Card
-													key={item.link}
+													key={item.link + item.name}
 													name={item.name}
 													link={item.link}
 													description={item.description}
@@ -70,7 +70,7 @@ export default function Home() {
 							{filtered.map((item) => {
 								return (
 									<Card
-										key={item.link}
+										key={item.link + item.name}
 										name={item.name}
 										link={item.link}
 										description={item.description}
