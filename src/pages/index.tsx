@@ -1,9 +1,15 @@
 import {Card} from "../components/card";
+import {useInputFilter} from "use-input-filter";
 import data from "../data.json";
 
 const categories = Object.entries(data.categories);
+const all = Object.values(data.categories).flat();
 
 export default function Home() {
+	const {state, setState, filtered} = useInputFilter((item, state) => {
+		return (item.name + item.description).toLowerCase().includes(state.toLowerCase().trim());
+	}, all);
+
 	return (
 		<>
 			<div className="shadow-md bg-gray-100 dark:bg-gray-800">
@@ -17,37 +23,66 @@ export default function Home() {
 					/>
 				</div>
 
-				<div className="py-36 max-w-4xl mx-auto space-y-2 px-4">
+				<div className="py-24 max-w-4xl mx-auto space-y-4">
 					<h1 className="font-bold text-4xl">Discord List List</h1>
 					<input
 						type="text"
 						placeholder="Search"
 						className="bg-gray-900 placeholder-gray-200 dark:placeholder-gray-600 bg-opacity-30 px-4 py-2 rounded-md w-full md:w-1/2 outline-none focus:outline-none focus:ring ring-gray-300"
+						onChange={(e) => setState(e.target.value)}
+						value={state}
 					/>
+					<p className="opacity-50 w-2/3">
+						If you dont use Discordlistlist to find the best Discord list, then how do you know that you
+						have the best discord list from the potential Discord lists to find the best Discord? Look no
+						more, for here is Discordlistlist
+					</p>
 				</div>
 			</div>
 
 			<div className="max-w-4xl mx-auto mt-8">
-				{categories.map((entry) => {
-					const [category, items] = entry;
-					return (
-						<div key={category}>
-							<h2 className="text-4xl font-bold mb-4 mt-10">{category}</h2>
-							<div className="grid grid-cols-3 gap-4">
-								{items.map((item) => {
-									return (
-										<Card
-											key={item}
-											name={item.name}
-											link={item.link}
-											description={item.description}
-										/>
-									);
-								})}
-							</div>
+				{state === "" ? (
+					<>
+						{categories.map((entry) => {
+							const [category, items] = entry;
+							return (
+								<div key={category}>
+									<h2 className="text-4xl font-bold mb-4 mt-10">{category}</h2>
+									<div className="grid grid-cols-3 gap-4">
+										{items.map((item) => {
+											return (
+												<Card
+													key={item.link + item.name}
+													name={item.name}
+													link={item.link}
+													description={item.description}
+												/>
+											);
+										})}
+									</div>
+								</div>
+							);
+						})}
+					</>
+				) : (
+					<div className="max-w-4xl mx-auto mt-8">
+						<div className="grid grid-cols-3 gap-4">
+							{filtered.map((item) => {
+								return (
+									<Card
+										key={item.link + item.name}
+										name={item.name}
+										link={item.link}
+										description={item.description}
+									/>
+								);
+							})}
 						</div>
-					);
-				})}
+					</div>
+				)}
+				<br />
+				<p className={"text-center text-gray-600"}>Not affiliated with Discord</p>
+				<br />
 			</div>
 		</>
 	);

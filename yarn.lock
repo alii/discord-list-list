@@ -2387,6 +2387,11 @@ url@^0.11.0:
     punycode "1.3.2"
     querystring "0.2.0"
 
+use-input-filter@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/use-input-filter/-/use-input-filter-0.1.2.tgz#9a315a4bf25338d595f17c5b61b2be87f172126f"
+  integrity sha512-Nfe9LS4DssY8ptF1JrrQfNoXO0kN2H1tF40AmrFTfwzzShORdMPH9Tl3EVaHNksL+VZbkxQQf/qHGSL2/G9lpQ==
+
 use-subscription@1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/use-subscription/-/use-subscription-1.5.1.tgz#73501107f02fad84c6dd57965beb0b75c68c42d1"
