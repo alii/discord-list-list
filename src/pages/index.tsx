@@ -91,6 +91,7 @@ export default function Home() {
 								);
 							})}
 						</div>
+						{!filtered.length && <p className="text-center">No results :(</p>}
 					</div>
 				)}
 				<br />
