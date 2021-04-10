@@ -25,6 +25,7 @@ export default function Home() {
 
 				<div className="py-24 max-w-4xl mx-auto space-y-4">
 					<h1 className="font-bold text-4xl">Discord List List</h1>
+
 					<input
 						type="text"
 						placeholder="Search"
@@ -32,11 +33,25 @@ export default function Home() {
 						onChange={(e) => setState(e.target.value)}
 						value={state}
 					/>
+
 					<p className="opacity-50 w-2/3">
 						If you dont use Discordlistlist to find the best Discord list, then how do you know that you
 						have the best discord list from the potential Discord lists to find the best Discord? Look no
 						more, for here is Discordlistlist
 					</p>
+
+					<a
+						href="https://www.producthunt.com/posts/discord-list-list?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-discord-list-list"
+						target="_blank"
+						className="block"
+					>
+						<img
+							src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=291721&theme=light"
+							alt="Discord List List - The ultimate list for finding the perfect Discord list. | Product Hunt"
+							width="250"
+							height="54"
+						/>
+					</a>
 				</div>
 			</div>
 
