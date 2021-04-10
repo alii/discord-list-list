@@ -1,8 +1,59 @@
 {
 	"categories": {
+		"Servers": [
+			{
+				"name": "Top.gg Servers",
+				"link": "https://top.gg/servers",
+				"description": "Find servers you're interested in and meet new friends"
+			},
+			{
+				"name": "Disboard",
+				"link": "https://disboard.org/",
+				"description": "Search Discord servers by keywords or tags."
+			},
+			{
+				"name": "Disboard",
+				"link": "https://disboard.org/",
+				"description": "Search Discord servers by keywords or tags."
+			},
+			{
+				"name": "Discord Servers",
+				"link": "https://discordservers.com/",
+				"description": "Find discord servers to join and chat, or list your discord server here! Search for the best discord servers out there, and chat away!"
+			},
+			{
+				"name": "Discord.st",
+				"link": "https://discord.st/",
+				"description": "Find new Discord servers and make new friends!"
+			},
+			{
+				"name": "Discord.me Servers",
+				"link": "https://discord.me/servers",
+				"description": "Public Discord Servers You'll Love :heart:"
+			},
+			{
+				"name": "Discordhub.com Servers",
+				"link": "https://discordhub.com/servers/list",
+				"description": "Find everything from social, gaming, and gaming servers"
+			},
+			{
+				"name": "Discordbotlist.com Servers",
+				"link": "https://discordhub.com/servers/list",
+				"description": "Find the best Discord Servers with our discord server list. Browse information on each server and vote for your favourites."
+			},
+			{
+				"name": "DisForge Servers",
+				"link": "https://disforge.com/",
+				"description": "Explore thousands of Discord servers, bots and much more!"
+			},
+			{
+				"name": "Discords.com",
+				"link": "https://discords.com/",
+				"description": "Find discord servers using the most advanced public index."
+			}
+		],
 		"Templates": [],
 		"Emojis": [],
-		"Servers": [],
 		"Bots": []
 	}
 }
