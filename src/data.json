@@ -50,10 +50,118 @@
 				"name": "Discords.com",
 				"link": "https://discords.com/",
 				"description": "Find discord servers using the most advanced public index."
+			},
+			{
+				"name": "DiscordList",
+				"link": "https://discordlist.io/",
+				"description": "The most beloved communities. Brought to the top by the users – voted for their favorite communities"
+			},
+			{
+				"name": "DiscordExtremeList Servers",
+				"link": "https://discordlist.io/",
+				"description": "The most beloved communities. Brought to the top by the users – voted for their favorite communities"
+			},
+			{
+				"name": "DiscordHome",
+				"link": "https://discordhome.com/",
+				"description": "The one stop spot for server seekers!"
 			}
 		],
-		"Templates": [],
-		"Emojis": [],
-		"Bots": []
+		"Bots": [
+			{
+				"name": "Top.gg",
+				"link": "https://top.gg",
+				"description": "Spice up your Discord experience with our diverse range of Discord bots"
+			},
+			{
+				"name": "DiscordBotList.com",
+				"link": "https://discordbotlist.com/",
+				"description": "Find the best Discord bots for your server with Discord bot list. Browse information on each bot and vote for your favourites."
+			},
+			{
+				"name": "Bots.gg",
+				"link": "https://discord.bots.gg/",
+				"description": "The original Discord bot list, find the right bot for your server today."
+			},
+			{
+				"name": "DiscordLabs.org",
+				"link": "https://bots.discordlabs.org/",
+				"description": "Discord Bot List - Bump up your servers street cred by finding some great Discord bots on our Discord Bots List!"
+			},
+			{
+				"name": "Disforge.com Bots",
+				"link": "https://disforge.com/bots",
+				"description": "Find Discord bots on the disforge.com Discord bot list - browse thousands of bots in categories like anime, music, moderation and more."
+			},
+			{
+				"name": "DiscordExtremeList Bots",
+				"link": "https://discordextremelist.xyz/en-GB/bots",
+				"description": "Our full list of Discord bots. All of the bots listed here have been approved by our moderation team to ensure that they are high quality."
+			},
+			{
+				"name": "DiscordBotList.eu",
+				"link": "https://discord-botlist.eu",
+				"description": "Your Discord Bot List! We give you the availability to apply your bot and give your bot a page on our website."
+			}
+		],
+		"Templates": [
+			{
+				"name": "DiscordExtremeList Templates",
+				"link": "https://discordextremelist.xyz/en-GB/templates",
+				"description": "Our full list of Discord server templates"
+			},
+			{
+				"name": "Discord.style",
+				"link": "https://www.discord.style/",
+				"description": "We aim to provide a huge variety of templates to help build your Discord community into the place of your dreams, without all the hassle."
+			},
+			{
+				"name": "Xenon Templates",
+				"link": "https://templates.xenon.bot/",
+				"description": "Chose from many different server templates and find the right one for your new discord server."
+			},
+			{
+				"name": "D Patterns",
+				"link": "https://d-patterns.js.org/",
+				"description": "List of popular and useful ready-made templates to create your discord server easily."
+			},
+			{
+				"name": "Discord.me Templates",
+				"link": "https://discord.me/template",
+				"description": "Discord Server about discord server Discord server about discord server templates."
+			}
+		],
+		"Emojis": [
+			{
+				"name": "Discord.st Emojis",
+				"link": "https://discord.st/emojis/",
+				"description": "Discord and Slack Emoji List, browse through thousands of custom emoji for your Slack channel or Discord server! Hundreds of thinking emojis, animated emojis..."
+			},
+			{
+				"name": "Emoji.gg",
+				"link": "https://emoji.gg/",
+				"description": "Discord & Slack Emoji Directory, easily browse and use thousands of custom emojis for your Discord server or Slack group. Browse emoji categories such as..."
+			},
+			{
+				"name": "AnimatedEmojis.com",
+				"link": "https://www.animatedemojis.com/",
+				"description": "Download hundreds of custom animated emojis and emotes to use in Slack, Discord, and more."
+			},
+			{
+				"name": "DiscordMoji",
+				"link": "https://discordmoji.tumblr.com/",
+				"description": "Tagged compilation of emojis, emotes, stickers and reaction images/gifs that can be used/sent on discord. new posts everyday."
+			},
+			{
+				"name": "DiscordHome.com Emojis",
+				"link": "https://discordhome.com/emojis",
+				"description": "Discord Emoji List - Find the best discord emojis for your discord server or list your emoji here."
+			},
+			{
+				"name": "Blogs.gg",
+				"link": "https://blobs.gg/",
+				"description": "Thousands of fun and playful Blob Emoji for Discord."
+			}
+		]
 	}
 }
