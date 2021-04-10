@@ -10,6 +10,8 @@ export default function Home() {
 		return (item.name + item.description).toLowerCase().includes(state.toLowerCase().trim());
 	}, all);
 
+	console.log(filtered);
+
 	return (
 		<>
 			<div className="shadow-md bg-gray-100 dark:bg-gray-800">
@@ -93,6 +95,7 @@ export default function Home() {
 								);
 							})}
 						</div>
+						{!filtered.length && <p className="text-center">No results :(</p>}
 					</div>
 				)}
 				<br />
