@@ -1,6 +1,14 @@
+.monotonize-image {
+	filter: brightness(0) invert(0);
+}
+
 @media (prefers-color-scheme: dark) {
 	body {
 		background-color: theme("colors.gray.900");
 		color: theme("colors.gray.500");
+	}
+
+	.monotonize-image {
+		filter: brightness(0) invert(1);
 	}
 }
