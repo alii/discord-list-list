@@ -106,14 +106,14 @@
 		],
 		"Templates": [
 			{
-				"name": "DiscordExtremeList Templates",
-				"link": "https://discordextremelist.xyz/en-GB/templates",
-				"description": "Our full list of Discord server templates"
-			},
-			{
 				"name": "Discord.style",
 				"link": "https://www.discord.style/",
 				"description": "We aim to provide a huge variety of templates to help build your Discord community into the place of your dreams, without all the hassle."
+			},
+			{
+				"name": "DiscordExtremeList Templates",
+				"link": "https://discordextremelist.xyz/en-GB/templates",
+				"description": "Our full list of Discord server templates"
 			},
 			{
 				"name": "Xenon Templates",
