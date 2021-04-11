@@ -1,5 +1,5 @@
 import data from "../data.json";
-
+//
 type CardProps = typeof data["categories"]["Servers"][number];
 
 export function Card(props: CardProps) {
