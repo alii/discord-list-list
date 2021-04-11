@@ -24,7 +24,7 @@
 			{
 				"name": "Discord.me Servers",
 				"link": "https://discord.me/servers",
-				"description": "Public Discord Servers You'll Love :heart:"
+				"description": "Public Discord Servers You'll Love ❤️"
 			},
 			{
 				"name": "Discordhub.com Servers",
@@ -97,6 +97,11 @@
 				"name": "DiscordBotList.eu",
 				"link": "https://discord-botlist.eu",
 				"description": "Your Discord Bot List! We give you the availability to apply your bot and give your bot a page on our website."
+			},
+			{
+				"name": "Bots on Discord",
+				"link": "https://bots.ondiscord.xyz",
+				"description": "Find the perfect Discord bot for your server with our easy to search bot list."
 			}
 		],
 		"Templates": [
