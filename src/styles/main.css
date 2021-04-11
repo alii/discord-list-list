@@ -1,3 +1,16 @@
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #a0aec0;
+	border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #7c8794;
+}
+
 .monotonize-image {
 	filter: brightness(0) invert(0);
 }
