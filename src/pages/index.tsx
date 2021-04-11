@@ -45,13 +45,14 @@ export default function Home() {
 					<a
 						href="https://www.producthunt.com/posts/discord-list-list?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-discord-list-list"
 						target="_blank"
-						className="flex justify-center mt-10 md:block"
+						className="flex justify-center mt-10 md:inline-block"
 					>
 						<img
 							src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=291721&theme=light"
 							alt="Discord List List - The ultimate list for finding the perfect Discord list. | Product Hunt"
 							width="200"
 							height="54"
+							className="block"
 						/>
 					</a>
 				</div>
