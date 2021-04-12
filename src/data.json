@@ -108,6 +108,11 @@
 				"link": "https://botsfordiscord.com/",
 				"description": "Find the best bot to spice up your Discord server!"
 			}
+			{
+				"name": "botlist.space",
+				"link": "https://discordlist.space",
+				"description": "Explore hundreds of Discord bots for your next big server."
+			},
 		],
 		"Templates": [
 			{
