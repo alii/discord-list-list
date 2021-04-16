@@ -60,6 +60,11 @@
 				"name": "DiscordHome",
 				"link": "https://discordhome.com/",
 				"description": "The one stop spot for server seekers!"
+			},
+			{
+				"name": "Discord.io",
+				"link": "https://discord.io",
+				"description": "A spot to create custom invite links, explore servers, and view bots."
 			}
 		],
 		"Bots": [
