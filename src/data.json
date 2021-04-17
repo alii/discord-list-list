@@ -24,7 +24,7 @@
 			{
 				"name": "Discord.me Servers",
 				"link": "https://discord.me/servers",
-				"description": "Public Discord Servers You'll Love :heart:"
+				"description": "Public Discord Servers You'll Love ❤️"
 			},
 			{
 				"name": "Discordhub.com Servers",
@@ -60,6 +60,11 @@
 				"name": "DiscordHome",
 				"link": "https://discordhome.com/",
 				"description": "The one stop spot for server seekers!"
+			},
+			{
+				"name": "Discord.io",
+				"link": "https://discord.io",
+				"description": "A spot to create custom invite links, explore servers, and view bots."
 			}
 		],
 		"Bots": [
@@ -97,18 +102,33 @@
 				"name": "DiscordBotList.eu",
 				"link": "https://discord-botlist.eu",
 				"description": "Your Discord Bot List! We give you the availability to apply your bot and give your bot a page on our website."
+			},
+			{
+				"name": "Bots on Discord",
+				"link": "https://bots.ondiscord.xyz",
+				"description": "Find the perfect Discord bot for your server with our easy to search bot list."
+			},
+			{
+				"name": "Bots for Discord",
+				"link": "https://botsfordiscord.com/",
+				"description": "Find the best bot to spice up your Discord server!"
+			},
+			{
+				"name": "botlist.space",
+				"link": "https://discordlist.space",
+				"description": "Explore hundreds of Discord bots for your next big server."
 			}
 		],
 		"Templates": [
 			{
-				"name": "DiscordExtremeList Templates",
-				"link": "https://discordextremelist.xyz/en-GB/templates",
-				"description": "Our full list of Discord server templates"
-			},
-			{
 				"name": "Discord.style",
 				"link": "https://www.discord.style/",
 				"description": "We aim to provide a huge variety of templates to help build your Discord community into the place of your dreams, without all the hassle."
+			},
+			{
+				"name": "DiscordExtremeList Templates",
+				"link": "https://discordextremelist.xyz/en-GB/templates",
+				"description": "Our full list of Discord server templates"
 			},
 			{
 				"name": "Xenon Templates",
@@ -124,6 +144,11 @@
 				"name": "Discord.me Templates",
 				"link": "https://discord.me/template",
 				"description": "Discord Server about discord server Discord server about discord server templates."
+			},
+			{
+				"name": "Discordtemplates.com",
+				"link": "https://discordtemplates.com/",
+				"description": "Check out the templates from our diverse collection and find the one you'll love!"
 			}
 		],
 		"Emojis": [
@@ -153,7 +178,7 @@
 				"description": "Discord Emoji List - Find the best discord emojis for your discord server or list your emoji here."
 			},
 			{
-				"name": "Blobs.gg",
+				"name": "Blogs.gg",
 				"link": "https://blobs.gg/",
 				"description": "Thousands of fun and playful Blob Emoji for Discord."
 			}
