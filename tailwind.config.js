@@ -1,6 +1,6 @@
 module.exports = {
 	purge: ["./src/**/*.{ts,tsx}"],
-	darkMode: "media",
+	darkMode: "class",
 	mode: "jit",
 	theme: {
 		extend: {},
@@ -8,5 +8,5 @@ module.exports = {
 	variants: {
 		extend: {},
 	},
-	plugins: [],
+	plugins: [require("@tailwindcss/line-clamp")],
 };
