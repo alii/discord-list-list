@@ -31,7 +31,7 @@ export default function App({Component, pageProps}: AppProps) {
 				<meta name="twitter:image" property="twitter:image" content={head.image} />
 			</Head>
 
-			<div className={colorMode}>
+			<div className={`min-h-screen ${colorMode}`}>
 				<ThemSwitcher colorMode={colorMode} setColorMode={setColorMode} />
 				<Component {...pageProps} />
 			</div>
