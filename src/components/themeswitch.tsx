@@ -1,7 +1,7 @@
 export function ThemSwitcher({colorMode, setColorMode}: {colorMode: string; setColorMode: any}) {
 	return (
 		<div
-			className="fixed z-20 flex items-center justify-center px-4 py-2 space-x-2 capitalize bg-gray-200 rounded-md shadow-sm cursor-pointer bottom-4 right-4 dark:bg-gray-800 dark:text-white focus:outline-none"
+			className="fixed z-20 flex items-center justify-center px-4 py-2 space-x-2 text-gray-800 capitalize bg-gray-200 rounded-md shadow-sm cursor-pointer bottom-4 right-4 dark:bg-gray-800 focus:outline-none dark:text-gray-400"
 			title="Click to switch theme"
 			onClick={() => (colorMode === "dark" ? setColorMode("light") : setColorMode("dark"))}
 		>
