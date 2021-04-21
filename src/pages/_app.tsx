@@ -1,10 +1,11 @@
-import {AppProps} from "next/app";
+import { AppProps } from "next/app";
 import Head from "next/head";
-import {useState} from "react";
 
 import "tailwindcss/tailwind.css";
-import {ThemSwitcher} from "../components/themeswitch";
 import "../styles/main.css";
+
+import { ThemSwitcher } from "../components/themeswitch";
+import { ThemeProvider } from "next-themes";
 
 const head = {
 	title: "Discord List List",
@@ -12,9 +13,7 @@ const head = {
 	image: "/logo.png",
 };
 
-export default function App({Component, pageProps}: AppProps) {
-	const [colorMode, setColorMode] = useState("dark");
-
+export default function App({ Component, pageProps }: AppProps) {
 	return (
 		<>
 			<Head>
@@ -31,10 +30,10 @@ export default function App({Component, pageProps}: AppProps) {
 				<meta name="twitter:image" property="twitter:image" content={head.image} />
 			</Head>
 
-			<div className={`min-h-screen ${colorMode}`}>
-				<ThemSwitcher colorMode={colorMode} setColorMode={setColorMode} />
+			<ThemeProvider defaultTheme="system" attribute="class">
+				<ThemSwitcher />
 				<Component {...pageProps} />
-			</div>
+			</ThemeProvider>
 		</>
 	);
 }
