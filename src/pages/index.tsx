@@ -1,12 +1,12 @@
-import {Card} from "../components/card";
-import {useInputFilter} from "use-input-filter";
+import { Card } from "../components/card";
+import { useInputFilter } from "use-input-filter";
 import data from "../data.json";
 
 const categories = Object.entries(data.categories);
 const all = Object.values(data.categories).flat();
 
 export default function Home() {
-	const {state, setState, filtered} = useInputFilter((item, state) => {
+	const { state, setState, filtered } = useInputFilter((item, state) => {
 		return (item.name + item.description).toLowerCase().includes(state.toLowerCase().trim());
 	}, all);
 
@@ -66,6 +66,7 @@ export default function Home() {
 									<h2 className="mt-10 mb-4 text-4xl font-semibold text-center md:text-left">
 										{category}
 									</h2>
+
 									<div className="grid grid-cols-1 gap-4 md:grid-cols-3">
 										{items.map((item) => {
 											return (
