@@ -5,8 +5,8 @@ export function ThemSwitcher() {
 
 	const getNextTheme = (): string => {
 		if (theme === "dark") return "light";
-		else if (theme === "light") return "system";
-		else return "dark";
+		if (theme === "light") return "system";
+		return "dark";
 	};
 
 	return (
